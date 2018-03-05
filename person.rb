@@ -11,18 +11,20 @@ class Person
 
     def age
 
-        age = 22
+       age = :22
         # create age variable here
 
     end
 
     def children
         # create children array here
-        ofsprings = ["Perpetual", "Frank", "Solomon", "Bukkie"]
+        children = ["Perpetual", "Frank", "Solomon", "Bukkie", "Billy"]
 
     end
 
     def address
+
+        address = Hash.new
 
         # create address hash here
 
@@ -36,6 +38,7 @@ class Person
           birth_year: 1983,
           mothers_name: "Eve",
           birth_town: "Richmond"
+
         }
 
     end
