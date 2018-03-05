@@ -1,10 +1,15 @@
 class Person 
 
+    require "rspec"
+    
+    def 
 
-    def name
-   name = “Deborah”
-
-    end
+        string_name = "Deborah"
+            
+        end
+        # create a name variable
+        name = "Steve"
+    end 
 
     def age
 
