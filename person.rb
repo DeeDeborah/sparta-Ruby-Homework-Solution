@@ -2,26 +2,39 @@ class Person
 
 
     def name
-   name = “Deborah”
+
+        name = “Deborah”
 
     end
 
     def age
 
-       age = :22
+        age = 22
         # create age variable here
 
     end
 
     def children
         # create children array here
-        children = ["Perpetual", "Frank", "Solomon", "Bukkie", "Billy"]
+        children = ["Perpetual", "Frank", "Solomon", "Bukkie"]
 
     end
 
     def address
 
-        address = Hash.new
+        
+
+        address = {
+
+            county: "Surrey",
+            house_number: 49,
+            street: "Fox Hill",
+            postcode: "SW15 1XG",
+            town: "Croydon",
+            email_addresses: ["foxhillbabes@gmail.com", "liverpoolforever@gmail.com"]
+
+
+        }
 
         # create address hash here
 
@@ -37,6 +50,8 @@ class Person
           birth_town: "Richmond"
 
         }
+
+        password = "#{favourite_things[1]} #{memorable_stuff[birth_town:]}"
 
     end
 
